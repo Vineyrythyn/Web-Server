@@ -1,0 +1,2 @@
+Welcome to FitLife Gym!
+Your file operations work successfully.

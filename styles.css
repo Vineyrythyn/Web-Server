@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background: linear-gradient(to right, #28313b, #485461);
+  text-align: center;
+}
+
+header {
+  padding: 50px;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 3em;
+  animation: fadeIn 1.5s ease;
+}
+
+.workouts h2 {
+  font-size: 2.5em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.workout-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.workout-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.workout-card:hover {
+  transform: scale(1.1);
+  background-color: #f0c14b;
+}
+
+.signup-btn {
+  font-size: 1.2em;
+  padding: 15px 30px;
+  margin-top: 30px;
+  background-color: #f39c12;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
